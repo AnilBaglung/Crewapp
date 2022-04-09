@@ -1,0 +1,65 @@
+.Team{
+    background-color: snow;
+    margin-top: -20px;
+
+}
+.team-text{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(17, 17, 184);
+}
+
+.team-row{
+    margin: 80px 5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.team-column{
+    flex-basis: 30%;
+}
+.team-column img{
+    text-align: center;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.team-column h4{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.team-column h5{
+    opacity: 0.5;
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+.team-column p{
+    padding-top: 30px;
+    color: rgb(92, 90, 90);
+    padding-bottom: 10px;
+    opacity: 0.9;
+    line-height: 25px;
+}
+.fa-brands{
+    margin: 20px 10px 100px 10px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 50%;
+    padding: 7px;
+    background: #6173f4;
+}
+
+@media screen and (max-width:860px) {
+    .team-row{
+        display: block;
+    }
+    
+}
+
